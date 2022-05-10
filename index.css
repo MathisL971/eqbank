@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+button {
+  background: #FFCB05;
+  border: none;
+  padding: 10px 30px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #40065B;
+  border-radius: 100px 30px;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.25)
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 35px 0;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+
+hr {
+  margin: 30px 0;
+}
+
+nav {
+  height: 40px;
+  padding: 20px 0;
+  background: #40065B;
+}
+
+#logo-header {
+  width: 150px;
+  height: 40px;
+}
+
+#toggle-icon-header {
+  width: 40px;
+  height: 40px;
+}
+
+.navbar-header {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.home-background-carousel {
+  height: 91vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(images/backgrounds/mountain-hike.jpeg);
+  position: relative;
+}
+
+.home-wrapper-carousel {
+  height: 91vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+.home-carousel-text {
+  width: 85%;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.home-section2 {
+  background: #A782B9;
+  height: 100vh;
+}
